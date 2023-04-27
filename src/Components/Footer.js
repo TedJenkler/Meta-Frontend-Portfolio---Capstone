@@ -2,7 +2,7 @@ import Logo from "../images/Logo .svg"
 
 const Footer = () => {
     return (
-        <>
+        <footer>
         <img src={Logo} />
         <ul>
             <li>Doormat Navigation</li>
@@ -25,7 +25,7 @@ const Footer = () => {
             <li>Phone</li>
             <li>email</li>
         </ul>
-        </>
+        </footer>
     )
 }
 

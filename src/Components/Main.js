@@ -1,7 +1,13 @@
+import Hero from "./Hero"
+import Specials from "./Specials"
+
 
 const Main = () => {
     return (
-        <h1>Main</h1>
+    <main>
+        <Hero />
+        <Specials />
+    </main>
     )
 }
 

@@ -1,13 +1,133 @@
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  min-width: 100%;
+  height: 100%;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 66%;
+  justify-content: flex-start;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav > ul > li {
+  margin: 1em 1em 1em 1em;
+  list-style: none; 
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+footer > ul > li {
+  margin: 1em 1em 1em 1em;
+  list-style: none;
+}
+
+footer > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  background-color: rgb(73 94 87);
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  padding: 1em 0 1em 0;
+}
+
+.hero-left {
+  padding-left: 21em;
+  width: 50%;
+  padding-right: 6em;
+}
+
+.hero-right {
+  min-width: 50%;
+}
+
+.resturantfood {
+  width: 15em;
+  height: 17.5em;
+  border-radius: 2em;
+  position: absolute;
+  top: 7.5em;
+}
+
+.hero-h1 {
+  color: rgb(244 206 20);
+}
+
+.hero-h2 {
+  color: white;
+}
+
+.hero-p {
+  color: white;
+}
+
+.hero-btn {
+  background-color: rgb(244 206 20);
+  color: white;
+  border: none;
+  padding: 0.75em 0.5em 0.75em 0.5em;
+  border-radius: 0.5em;
+  font-weight: 700;
+}
+
+.specials {
+    margin-top: 4em;
+}
+
+.special-header {
+  display: flex;
+  align-items: center;
+}
+
+.special-h1 {
+  margin-left: 10.5em;
+}
+
+.special-btn {
+  margin-left: 16em;
+  background-color: rgb(244 206 20);
+  color: black;
+  border: none;
+  padding: 0.75em 0.5em 0.75em 0.5em;
+  border-radius: 0.5em;
+  font-weight: 700;
 }

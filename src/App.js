@@ -13,8 +13,10 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <>
+      <div className='header-part'>
         <Header />
         <Nav />
+      </div>
         <Main />
         <Footer />
         <Routes>

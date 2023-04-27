@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 const Nav = () => {
     return (
+        <nav>
         <ul>
             <li>
                 <Link to="/">Home</Link>
@@ -23,6 +24,7 @@ const Nav = () => {
                 <Link to="/Login">Login</Link>
             </li>
         </ul>
+        </nav>
     )
 }
 
