@@ -131,3 +131,9 @@ footer > ul > li > a {
   border-radius: 0.5em;
   font-weight: 700;
 }
+
+.form {
+  display: grid;
+  max-width: 200px;
+  gap: 20px
+}
